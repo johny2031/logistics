@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "jk-logistics",
+			"path": "../jk logistics/jk-logistics"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jk-logistics"
+	}
+}

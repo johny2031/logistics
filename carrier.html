@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier Job Carrier Application</title>
+    <style>
+        body {
+            background-image: url(asset/CARRIER\ 222.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-size: larger;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2 >  FULL/PART TIME JOBS</h2>
+    <form>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" rows="2" required></textarea>
+
+        <label for="experience">Courier Carrier Experience (if any):</label>
+        <textarea id="experience" rows="2"></textarea>
+
+        <label for="license">ADDHAR CARD:</label>
+        <input type="text" id="ADDHAR" required>
+
+        <label for="availability">Availability:</label>
+        <select id="availability" required>
+            <option value="fullTime">Full Time</option>
+            <option value="partTime">Part Time</option>
+            <option value="flexible">Flexible</option>
+        </select>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</div>
+
+</body>
+</html>

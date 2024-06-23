@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Courier Tracker</title>
+    <style>
+
+.header {
+    background-color:  rgb(6, 104, 143);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+ }
+
+
+
+ .header{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+ }
+
+ .navbar ul{
+    list-style-type: none;
+    padding: 10px;
+    font-size: large;
+    text-align: right;
+    margin-bottom: 0%;
+    overflow: hidden;}
+ 
+ .navbar a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: justify;
+    display: inline-block;
+    color: rgb(251, 251, 251);
+    size: 20px;
+ }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 10px;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+
+
+    .h11{
+        text-align: center;
+    }
+    
+    .container {
+        max-width: 500px;
+        margin: 50px auto;
+        background-color: bisque;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    label {
+        margin-bottom: 8px;
+    }
+    
+    input {
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    button {
+        background-color:green;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    .footer {
+  
+  text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 10px;
+  }
+
+  .footer-container {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    max-width: 300px;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+
+  ul {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons {
+    display: flex;
+    padding: 0;
+  }
+
+  .social-icons li {
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 1.2em;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+</style>
+</head>
+
+<header>
+    <div class="header">
+
+      <div class="heading">
+       
+    <h4><u>JK LOGISTICS</u> <br>
+      International&Domestic couriers</h4>
+      </div>
+      
+      <nav class="navbar"> 
+       
+       <ul>
+  <a href="aboutus.html" target="_blank">  <li>ABOUT US</li> </a>  
+  <a href="tracking.html" target="_blank"><li>TRACKING</li></a>
+  <a href="caluculator.html" target="_blank"><li>RATE CALCULATION</li></a>
+  <a href="pickup.html" target="_blank"><li>BOOKING</li></a>
+  <a href="https://wa.me/9441892908" target="_blank"><li>HELP DESK</li></a>
+  <a href="carrier.html" target="_blank"><li>CARRER</li></a>
+  <a href="contact us.html" target="_blank"><li>CONTACT US</li></a>
+         
+ </ul>
+ </nav>
+</div>
+   </header>
+
+<body>
+    <div class="container">
+        <h1 class="h11">SHIPMENT TRACKER</h1>
+
+        <form>
+            <label for="trackingNumber">Tracking Number:</label>
+            <input type="text" id="trackingNumber" name="trackingNumber" required>
+            <button type="button" onclick="trackCourier()">Track Courier</button>
+        </form>
+    </div>
+    <br>
+    
+    
+    
+    <footer>
+        <div class="footer-container">
+     
+          <div class="footer-section">
+            <h3>JK LOGISTICS</h3>
+            <p>
+              WorldFirst Courier is the best International Domestic Courier service provider in Hyderabad, India at an affordable price with the fastest service. We have multiple branches in Telangana and Andhra Pradesh. We are providing quick real-time online courier tracking services to the users.
+            </p>
+          </div>
+     
+     
+          <div class="footer-section">
+            <h3>ADRESS</h3>
+            <p>
+              Address: 23a-4-6,9th ward,bhagat nagar,palakollu.<br>
+              Phone: 9133051439<br>
+              Email: sheikalishabhai@gmail.com
+            </p>
+          </div>
+         
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <ul class="social-icons">
+              <li><a href="" target="_blank">Facebook</a></li>
+              <li><a href="#" target="_blank">Twitter</a></li>
+              <li><a href="#" target="_blank">LinkedIn</a></li>
+              <li><a href="#" target="_blank">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Your Courier Company. All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
